@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+
+}
+
+.box-main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.box-1 {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 15%;
+}
+
+.box-2 {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.imagem {
+    position: relative;
+    top: 25%;
+    right: 130px;
+}
+
+h1 {
+    color: rgba(93, 93, 125, 1);
+    width: 400;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: left;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    color: rgba(93, 93, 125, 1);
+    margin: 15 0;
+    Width: 540px;
+    margin-top: 30px;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    line-height: 35.57px;
+    background: rgba(148, 153, 234, 1);
+    box-shadow: 0px 10px 24px 0px rgba(148, 153, 234, 0.098);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+a {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 41.5px;
+    text-decoration: none;
+    margin-right: 41px;
+
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    color: rgba(93, 93, 125, 0.8);
+}
+
+.link-header {
+    margin-left: 41px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+@media screen and ( max-width: 950px ){
+   .box-1 {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0; 
+    }
+
+    .box-2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 46px;
+        margin-top: 60px;
+
+    }
+
+    .imagem {
+        position: static;
+        width: 90%;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        text-align: center;
+        width:268px;
+        margin-top: 58px;
+        margin-left: 54px;
+
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: 296px;
+        margin-top: 30px;
+        margin-left: 40px;
+
+
+    }
+
+    button {
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        width: 269px;
+        margin-left: 54px;
+    }
+}
+@media screen and ( max-width: 1180px ){
+    
+    header{ 
+        display: none;
+    }
+    .imagem{
+        position: static;
+        margin-top: 20px;
+        
+    }
+}
+@media screen and ( max-width: 1280px ){
+    .imagem{
+        position: static;
+        margin-top: 80px;
+        width: 70%;
+       margin-left: 50px;
+    }
+}
